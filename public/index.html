@@ -6,19 +6,28 @@
   <title>Document</title>
 </head>
 <body>
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
+  <div id="g_id_onload"
+  data-client_id="96130499334-vmnok8i6en6ifik3f74ies4llaaboipk.apps.googleusercontent.com"
+  data-context="signin"
+  data-ux_mode="redirect"
+  data-login_uri="https://kino-69dee.web.app/login"
+  data-auto_select="true"
+  data-itp_support="true">
+</div>
+
+<div class="g_id_signin"
+  data-type="standard"
+  data-shape="pill"
+  data-theme="filled_blue"
+  data-text="signin_with"
+  data-size="large"
+  data-locale="id"
+  data-logo_alignment="left">
+</div>
 <!-- index.html -->
 <div id="app"></div>
 
-<!-- index.html -->
-<div id="app"></div>
-
-<script type="module">
-  import { createApp } from 'vue'
-  import MyComponent from './my-component.js'
-
-  createApp(MyComponent).mount('#app')
-</script>
+<script src="https://accounts.google.com/gsi/client" async></script>
 </body>
 </html>
